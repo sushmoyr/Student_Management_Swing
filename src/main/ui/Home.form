@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="main.ui.Home">
+  <grid id="27dc6" binding="mainWindow" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="75" y="-26" width="662" height="475"/>
+    </constraints>
+    <properties>
+      <background color="-14999772"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="485ed" binding="mainbar" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="100" left="100" bottom="100" right="100"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="600" height="600"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14999772"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="816bb" class="javax.swing.JButton" binding="homeButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13091766"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <focusCycleRoot value="true"/>
+              <focusPainted value="false"/>
+              <font name="Open Sans" size="16" style="0"/>
+              <foreground color="-2308"/>
+              <hideActionText value="true"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="main/res/images/icons8_school_30px.png"/>
+              <opaque value="true"/>
+              <selected value="true"/>
+              <text value="View All Students"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="dafd5" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Open Sans" size="24" style="1"/>
+              <foreground color="-11365150"/>
+              <text value="Student Report Management System"/>
+            </properties>
+          </component>
+          <component id="780d6" class="javax.swing.JButton" binding="addButton">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13091766"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <focusCycleRoot value="true"/>
+              <focusPainted value="false"/>
+              <font name="Open Sans" size="16" style="0"/>
+              <foreground color="-2308"/>
+              <hideActionText value="true"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="main/res/images/student_registration.png"/>
+              <opaque value="true"/>
+              <selected value="true"/>
+              <text value="Add Student"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="44ff4" class="javax.swing.JButton" binding="searchResult">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13091766"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <focusCycleRoot value="true"/>
+              <focusPainted value="false"/>
+              <font name="Open Sans" size="16" style="0"/>
+              <foreground color="-2308"/>
+              <hideActionText value="true"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="main/res/images/search.png"/>
+              <opaque value="true"/>
+              <selected value="true"/>
+              <text value="Search Students"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="98a94" class="javax.swing.JButton" binding="quit">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13091766"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <focusCycleRoot value="true"/>
+              <focusPainted value="false"/>
+              <font name="Open Sans" size="16" style="0"/>
+              <foreground color="-2308"/>
+              <hideActionText value="true"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="11"/>
+              <icon value="main/res/images/exit.png"/>
+              <opaque value="true"/>
+              <selected value="true"/>
+              <text value="Quit"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
